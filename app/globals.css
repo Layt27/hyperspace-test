@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
-	color: rgb(var(--foreground-rgb));
+	background-color:black;
+	color: white;
 	padding: 1rem;
 }
