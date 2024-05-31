@@ -7,7 +7,10 @@ function Popup() {
 				<h1 className='text-3xl font-bold mb-5'>Popup complete!</h1>
 				<p>The background should be blurred.</p>
 				<p>Click on the button below to close the popup.</p>
-				<button className='bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-4 mt-5 rounded-md'>Close popup</button>
+				<button
+					className='bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-4 mt-5 rounded-md'>
+					Close popup
+				</button>
 			</div>
 		</div>
 	);
