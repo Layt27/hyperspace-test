@@ -3,6 +3,7 @@
 // Imports
 import React, { useState } from 'react';
 import Popup from './popup/page';
+import Link from 'next/link';
 
 const page1 = () => {
 	const [showPopup, setShowPopup] = useState(false);
@@ -15,6 +16,11 @@ const page1 = () => {
 				className='bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-4 rounded-md'>
 				Click me!
 			</button>
+			<div className="absolute inset-0 flex justify-center items-center">
+        		<Link href="/">
+          			<button className="bg-blue-500 hover:bg-blue-800 text-white px-4 py-2 rounded-md">Go back</button>
+        		</Link>
+      		</div>
 			{showPopup && <Popup />}
 		</div>
   	);
