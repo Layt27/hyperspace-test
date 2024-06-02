@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
     return (
-        <main className="flex flex-col items-center justify-center min-h-screen">
+        <main className="flex flex-col items-center justify-center min-h-screen mt-[-100px]">
             <h1 className="text-5xl mb-8">Hyperspace Test</h1>
             <div className="flex justify-center w-full space-x-16">
                 <div className="flex flex-col items-start">
