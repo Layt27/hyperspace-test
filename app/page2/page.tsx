@@ -13,7 +13,6 @@ const page2 = () => {
                     x: [0, 400, 400, 0, 0, -400, -400, 0],
                 }}
                 transition={{ duration: 1.3, repeat: Infinity }}
-                children={undefined}
             ></MotionContainer>
             <div className="flex justify-center items-center">
                 <Link href="/">
